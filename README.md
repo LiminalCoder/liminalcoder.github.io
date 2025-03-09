@@ -1,7 +1,7 @@
 # portfolio_site
 Contains all files and code supporting my personal website.
 
-### Last updated: May 26<sup>th</sup>, 2024
+### Last updated: March 8<sup>th</sup>, 2025
 
 This website is meant to be a first impression of the work I can put out for potential employers, and supply information about my prior works, ideally with links to relevant sources, when available.
 It will be a continuous work that I update throughout my career, preferably *at least __once per two months__*.
