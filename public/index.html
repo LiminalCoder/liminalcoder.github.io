@@ -1,68 +1,112 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-[#FDF7ED] text-[14px] md:text-[16px]">
-<head>
+<html lang="en" class="bg-[#FDF7ED] text-[#454545] text-[14px] md:text-[16px] font-[Inter]">
+    <head>
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script src="https://cdn.tailwindcss.com"></script>
         <title>Cameron Miskell's Portfolio</title>
     </head>
-    <body class="font-[Inter]">
-        <div name="body">
-            <div name="nav" class="static mb-[2.5rem] bg-[#89D2FF]">
-                <nav class="flex text-[#454545] py-2">
-                    <a name="index" class="no-underline hover:underline text-2xl px-8 font-semibold" href="index.html">Cameron Miskell</a>
-                    <div name="socials" class="self-center ml-auto mr-4 flex gap-4">
-                        <a name="github" href="https://github.com/LiminalCoder">
-                            <svg width="98" height="96" viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg" aria-label="Github" class="size-8">
-                                <title>Github</title>
-                                <desc>Click to visit Cameron Miskell's profile on Github</desc>
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z" fill="#24292f"/>
-                            </svg>
-                        </a>
-                        <a name="linkedin" href="https://www.linkedin.com/in/cameron-miskell-3aa986160/">
-                            <svg role="img" aria-label="LinkedIn" fill="#000000" width="800px" height="800px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg" class="size-7">
-                                <title>LinkedIn</title>
-                                <desc>Click to visit Cameron Miskell's profile on LinkedIn</desc>
-                                <path d="M1168 601.321v74.955c72.312-44.925 155.796-71.11 282.643-71.11 412.852 0 465.705 308.588 465.705 577.417v733.213L1438.991 1920v-701.261c0-117.718-42.162-140.06-120.12-140.06-74.114 0-120.12 23.423-120.12 140.06V1920l-483.604-4.204V601.32H1168Zm-687.52-.792v1318.918H0V600.53h480.48Zm-120.12 120.12H120.12v1078.678h240.24V720.65Zm687.52.792H835.267v1075.316l243.364 2.162v-580.18c0-226.427 150.51-260.18 240.24-260.18 109.55 0 240.24 45.165 240.24 260.18v580.18l237.117-2.162v-614.174c0-333.334-93.573-457.298-345.585-457.298-151.472 0-217.057 44.925-281.322 98.98l-16.696 14.173H1047.88V721.441ZM240.24 0c132.493 0 240.24 107.748 240.24 240.24 0 132.493-107.747 240.24-240.24 240.24C107.748 480.48 0 372.733 0 240.24 0 107.748 107.748 0 240.24 0Zm0 120.12c-66.186 0-120.12 53.934-120.12 120.12s53.934 120.12 120.12 120.12 120.12-53.934 120.12-120.12-53.934-120.12-120.12-120.12Z" fill-rule="evenodd"/>
-                            </svg>
-                        </a>
-                        <a name="email" href="//mailto:cam.a.miskell@gmail.com">
-                            <svg role="img" aria-label="Email" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
-                                <title>Email</title>
-                                <desc>Send an email to cam.a.miskell@gmail.com through your default mail application</desc>
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
-                            </svg>
-                        </a>
-                    </div>
-                </nav>
-            </div>
 
+    <div name="nav" class="fixed w-full mb-[2.5rem] bg-[#89D2FF] z-10">
+        <nav class="flex py-2">
+            <a name="index" class="no-underline hover:underline text-2xl px-8 font-semibold" href="index.html">Cameron Miskell</a>
+            <div name="socials" class="self-center ml-auto mr-4 flex gap-4">
+                <a name="github" href="https://github.com/LiminalCoder">
+                    <svg width="98" height="96" viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg" aria-label="Github" class="size-8">
+                        <title>Github</title>
+                        <desc>Click to visit Cameron Miskell's profile on Github</desc>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z" fill="#24292f"/>
+                    </svg>
+                </a>
+                <a name="linkedin" href="https://www.linkedin.com/in/cameron-miskell-3aa986160/">
+                    <svg role="img" aria-label="LinkedIn" fill="#000000" width="800px" height="800px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg" class="size-7">
+                        <title>LinkedIn</title>
+                        <desc>Click to visit Cameron Miskell's profile on LinkedIn</desc>
+                        <path d="M1168 601.321v74.955c72.312-44.925 155.796-71.11 282.643-71.11 412.852 0 465.705 308.588 465.705 577.417v733.213L1438.991 1920v-701.261c0-117.718-42.162-140.06-120.12-140.06-74.114 0-120.12 23.423-120.12 140.06V1920l-483.604-4.204V601.32H1168Zm-687.52-.792v1318.918H0V600.53h480.48Zm-120.12 120.12H120.12v1078.678h240.24V720.65Zm687.52.792H835.267v1075.316l243.364 2.162v-580.18c0-226.427 150.51-260.18 240.24-260.18 109.55 0 240.24 45.165 240.24 260.18v580.18l237.117-2.162v-614.174c0-333.334-93.573-457.298-345.585-457.298-151.472 0-217.057 44.925-281.322 98.98l-16.696 14.173H1047.88V721.441ZM240.24 0c132.493 0 240.24 107.748 240.24 240.24 0 132.493-107.747 240.24-240.24 240.24C107.748 480.48 0 372.733 0 240.24 0 107.748 107.748 0 240.24 0Zm0 120.12c-66.186 0-120.12 53.934-120.12 120.12s53.934 120.12 120.12 120.12 120.12-53.934 120.12-120.12-53.934-120.12-120.12-120.12Z" fill-rule="evenodd"/>
+                    </svg>
+                </a>
+                <a name="email" href="//mailto:cam.a.miskell@gmail.com">
+                    <svg role="img" aria-label="Email" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
+                        <title>Email</title>
+                        <desc>Send an email to cam.a.miskell@gmail.com through your default mail application</desc>
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                    </svg>
+                </a>
+            </div>
+        </nav>
+    </div>
+
+    <body>
+        <div name="body" class="grid grid-cols-1 justify-items-center">
             <div name="Introduction" class="grid grid-flow-row-dense grid-cols-1 md:grid-cols-2 px-[2rem] justify-center">
                 <div name="Description" class="self-center justify-self-center">
                     <p class="text-4xl font-bold">Hi, I'm Cameron.</p>
-                    <ul class="list-disc text-2xl">
+                    <ul class="list-disc text-2xl ml-6">
                        <li>Based in Peabody, Massachusetts, USA</li>
                        <li>M.S. in Software Engineering</li>
                        <li>Designing solutions with Java and Python</li>
                     </ul>
                 </div>
 
-                <div name="Portrait" class="content-center">
+                <div name="Portrait" class="content-center z-0">
                     <img src="/public/images/Suit_Portrait.JPEG" class="max-w-xl max-h-[80%] object-contain rounded-xl drop-shadow-md ">
                 </div>
             </div>
 
-            <div name="Projects" class="flex flex-nowrap min-w-[500px] max-w-[88%]">
-                
+            <p class="text-4xl font-bold mb-[1rem]">Projects and Research</p>
+
+            <div name="Projects" class="flex flex-nowrap min-w-[500px] max-w-[88%] gap-4 mb-[1.5rem]">
+                <div class="bg-[#89D2FF] w-[40%] flex-initial justify-center min-w-[3rem] pt-2 pb-[2rem] px-2 rounded drop-shadow-md">
+                    <a href="https://fit-history-app.github.io/" name="Florida Tech History Tours" class="no-underline text-2xl">Florida Tech History Tours</a>
+                    <ul class="flex flex-wrap gap-2">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>React</li>
+                        <li>API Integrations</li>
+                    </ul>
+                </div>
+
+                <div class="bg-[#89D2FF] w-[40%] flex-initial justify-center min-w-[3rem] pt-2 pb-[2rem] px-2 rounded drop-shadow-md">
+                    <a href="https://doi.org/10.1145/3639233.3639242" name="Conference Paper Research" class="no-underline text-2xl">
+                        Automated Software Requirements Extractor
+                    </a>
+                    <ul class="flex flex-wrap gap-2">
+                        <li>Java</li>
+                        <li>Large Language Models</li>
+                        <li>API Integrations</li>
+                    </ul>
+                </div>
+
+                <div class="bg-[#89D2FF] w-[40%] flex-initial justify-center min-w-[3rem] pt-2 pb-[2rem] px-2 rounded drop-shadow-md">
+                    <a href="https://github.com/LiminalCoder/portfolio_site" name="Portfolio Site" class="no-underline text-2xl">
+                        This Portfolio Site!
+                    </a>
+                    <ul class="flex flex-wrap gap-2">
+                        <li>HTML</li>
+                        <li>TailwindCSS</li>
+                    </ul>
+                </div>
+
+                <div class="bg-[#89D2FF] w-[40%] flex-initial justify-center min-w-[3rem] pt-2 pb-[2rem] px-2 rounded drop-shadow-md">
+                    <a href="https://github.com/LiminalCoder" name="Future Placeholder" class="no-underline text-2xl">
+                        And More To Come...
+                    </a>
+                    <ul class="flex flex-wrap gap-2">
+                        <li>Java?</li>
+                        <li>Rust?</li>
+                        <li>SQL?</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </body>
 
-    <footer class="fixed w-full h-[2rem] bottom-0 bg-[#FDF7ED]">
-        <div>
-            <hr/>
-            <p class="self-center text-l">Cameron Miskell's Portfolio</p>
+    <footer class="w-full bg-[#FDF7ED]">
+        <hr />
+        <div class="flex h-[1rem] content-center">
+            <p class="text-l pl-2">Cameron Miskell's Portfolio</p>
         </div>
     </footer>
 </html>
