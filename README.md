@@ -1,5 +1,5 @@
-# portfolio_site
-Contains all files and code supporting my personal website.
+# liminalcoder.github.io
+Contains all files and code supporting my portfolio website.
 
 ### Last updated: April 2, 2025
 
@@ -8,19 +8,18 @@ It will be a continuous work that I update throughout my career, preferably *at 
 
 ## Current Contents:
 
-- Main homepage with Introductory Info about me and some social links.
+1. Barebones homepage containing:
+   - Name
+   - City, State, USA
+   - Current Title *or* Software Engineering Degree
+   - Contact Email
+   - LinkedIn profile
+   - Github profile
+   - Resume PDF link
+2. *Projects and Research* carousel with links to displayed projects
 
 ## Next Planned Features:
 
-1. Barebones homepage containing:
-   - <s>Name</s>
-   - <s>City, State, USA</s>
-   - <s>Current Title *or* Software Engineering Degree</s>
-   - <s>Contact Email</s>
-   - <s>LinkedIn profile</s>
-   - <s>Github profile</s>
-   - Resume PDF link
-2. *Projects* <s>page</s> scrollable carousel with links to displayed projects
-3. *Research* page with links or DOIs for papers
-4. CSS to make the base pages look *pretty*
-5. **TBD...**
+4. Pictures to represent my projects with a visual before following the links
+5. CSS to make the base pages look *pretty*
+6. **TBD...**
