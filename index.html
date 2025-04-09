@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" class="bg-[#FDF7ED] text-[#454545] text-[14px] md:text-[16px] font-[Inter]">
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" type="text/css">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,7 +13,10 @@
 
     <div name="nav" class="fixed w-full mb-[2.5rem] bg-[#89D2FF] z-10">
         <nav class="flex py-2">
-            <a name="index" class="no-underline hover:underline text-2xl px-8 font-semibold" href="index.html">Cameron Miskell</a>
+            <a name="index" class="no-underline hover:underline text-2xl px-8 font-semibold" href="/">
+                <title>Index</title>
+                Cameron Miskell
+            </a>
             <div name="socials" class="self-center ml-auto mr-4 flex gap-4">
                 <a name="github" href="https://github.com/LiminalCoder">
                     <svg width="98" height="96" viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg" aria-label="Github" class="size-8">
@@ -38,13 +44,13 @@
     </div>
 
     <body>
-        <div name="body" class="grid grid-cols-1 justify-items-center">
+        <div name="body" class="grid grid-cols-1 justify-items-center pt-[4rem]">
             <div name="Introduction" class="grid grid-flow-row-dense grid-cols-1 md:grid-cols-2 px-[2rem] justify-center">
                 <div name="Description" class="self-center justify-self-center">
                     <p class="text-4xl font-bold mb-4">Hi, I'm Cameron.</p>
                     <ul class="list-disc text-2xl ml-6">
                         <li>
-                            <a href="/public/Cameron-Miskell_Software-Engineer.pdf" name="Resume Download" download="Cameron-Miskell_Resume">
+                            <a href="/public/Cameron-Miskell_Software-Engineer.pdf" name="Resume Download" download="Cameron-Miskell_Resume" class="no-underline hover:underline">
                                 Click here to get my resume
                             </a>
                         </li>
@@ -55,50 +61,58 @@
                 </div>
 
                 <div name="Portrait" class="content-center z-0">
-                    <img src="/public/images/Suit_Portrait.JPEG" class="max-w-xl max-h-[80%] object-contain rounded-xl drop-shadow-md ">
+                    <img src="/public/images/Suit_Portrait.JPEG" class="max-w-xl h-[80%] min-h-[4rem] object-contain rounded-xl drop-shadow-md" alt="A picture of Cameron's upper body, wearing a grey suit and smiling at the camera." title="Portrait of Cameron">
                 </div>
             </div>
 
             <p class="text-4xl font-bold mb-[1rem]">Projects and Research</p>
 
             <div name="Projects" class="flex flex-nowrap min-w-[500px] max-w-[88%] gap-4 mb-[1.5rem]">
+            <!-- Make this a JS class later to minimize repeated HTML-->
+            <!-- Establish a minimum width for flex items to stop shrinking before text overflows the card-->
                 <div class="bg-[#89D2FF] w-[40%] flex-initial justify-center min-w-[3rem] pt-2 pb-[2rem] px-2 rounded drop-shadow-md">
-                    <a href="https://fit-history-app.github.io/" name="Florida Tech History Tours" class="no-underline text-2xl">Florida Tech History Tours</a>
-                    <ul class="flex flex-wrap gap-2">
+                    <a href="https://fit-history-app.github.io/" name="Florida Tech History Tours" class="text-2xl no-underline hover:underline">Florida Tech History Tours</a>
+                    <ul class="flex flex-wrap gap-x-2 pt-4">
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>Javascript</li>
                         <li>React</li>
                         <li>API Integrations</li>
                     </ul>
+                    <p class="pt-4"><i>
+                    Explore the Florida Tech campus with a map-guided tour, or wander and discover historical trivia about the university landmarks while your location dynamically updates on the map!
+                    </i></p>
                 </div>
 
                 <div class="bg-[#89D2FF] w-[40%] flex-initial justify-center min-w-[3rem] pt-2 pb-[2rem] px-2 rounded drop-shadow-md">
-                    <a href="https://doi.org/10.1145/3639233.3639242" name="Conference Paper Research" class="no-underline text-2xl">
+                    <a href="https://doi.org/10.1145/3639233.3639242" name="Conference Paper Research" class="text-2xl no-underline hover:underline">
                         Automated Software Requirements Extractor
                     </a>
-                    <ul class="flex flex-wrap gap-2">
+                    <ul class="flex flex-wrap gap-x-2 pt-4">
                         <li>Java</li>
                         <li>Large Language Models</li>
                         <li>API Integrations</li>
                     </ul>
+                    <p class="pt-4">
+                    Developed a prototype framework for ingesting source code and returning extracted features and generated requirement predictor statements. 
+                    </p>
                 </div>
 
                 <div class="bg-[#89D2FF] w-[40%] flex-initial justify-center min-w-[3rem] pt-2 pb-[2rem] px-2 rounded drop-shadow-md">
-                    <a href="https://github.com/LiminalCoder/liminalcoder.github.io" name="Portfolio Site" class="no-underline text-2xl">
+                    <a href="https://github.com/LiminalCoder/liminalcoder.github.io" name="Portfolio Site" class="text-2xl no-underline hover:underline">
                         This Portfolio Site!
                     </a>
-                    <ul class="flex flex-wrap gap-2">
+                    <ul class="flex flex-wrap gap-x-2 pt-4">
                         <li>HTML</li>
                         <li>TailwindCSS</li>
                     </ul>
                 </div>
 
                 <div class="bg-[#89D2FF] w-[40%] flex-initial justify-center min-w-[3rem] pt-2 pb-[2rem] px-2 rounded drop-shadow-md">
-                    <a href="https://github.com/LiminalCoder" name="Future Placeholder" class="no-underline text-2xl">
+                    <a href="https://github.com/LiminalCoder" name="Future Placeholder" class="text-2xl no-underline hover:underline">
                         And More To Come...
                     </a>
-                    <ul class="flex flex-wrap gap-2">
+                    <ul class="flex flex-wrap gap-x-2 pt-4">
                         <li>Java?</li>
                         <li>Rust?</li>
                         <li>SQL?</li>
